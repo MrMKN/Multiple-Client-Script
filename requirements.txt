@@ -1,2 +1,2 @@
-Pyrogram==1
+Pyrogram==1.0.0
 tgcrypto
