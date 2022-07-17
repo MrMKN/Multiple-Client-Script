@@ -9,10 +9,10 @@ API_ID2 = API_ID
 API_HASH2 = API_HASH
 
 app = Client("app1", bot_token=BOT_TOKEN_2, api_id=API_ID, api_hash=API_HASH)
-app.start()
+app.run()
                                          
 bot = Client("bot", bot_token=BOT_TOKEN_1, api_id=API_ID2, api_hash=API_HASH2)                  
-bot.start()
+bot.run()
 
        
 
