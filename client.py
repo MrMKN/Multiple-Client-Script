@@ -38,7 +38,7 @@ async def second_start(client, message):
 
        
 print("bot1 starting success full 🔥....")        
-App1.start()
+App1.run()
 print("bot2 starting success full 🔥....")
-App2.start()
+App2.run()
 
