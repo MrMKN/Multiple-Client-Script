@@ -15,14 +15,6 @@ App1 = Client(
        api_hash=API_HASH
 )
 
-@App1.on_message(filters.command("start"))
-async def first_start(client, message):
-    await message.reply_text(
-        text="Hello Bro 😉 i am bot1")
-
-print("bot1 starting success full 🔥....")        
-App1.run()
-
 ##--------------------[(Client 2)]----------------
                         
 App2 = Client(
@@ -32,13 +24,21 @@ App2 = Client(
        api_hash=API_HASH
 )
 
+@App1.on_message(filters.command("start"))
+async def first_start(client, message):
+    await message.reply_text(
+        text="Hello Bro 😉 i am bot1")
+
 
 @App2.on_message(filters.command("start"))
 async def second_start(client, message):
     await message.reply_text(
         text="Hello Bro 😉 i am bot2")
-       
 
+
+       
+print("bot1 starting success full 🔥....")        
+App1.run()
 print("bot2 starting success full 🔥....")
 App2.run()
 
