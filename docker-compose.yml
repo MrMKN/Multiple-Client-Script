@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  pyro:
+    build: .
+    environment:
+      API_ID: $API_ID
+      API_HASH: $API_HASH
+      BOT_TOKEN_1: $BOT_TOKEN_2
+      BOT_TOKEN_2: $BOT_TOKEN_2
