@@ -3,7 +3,7 @@ import os
 
 BOT_TOKEN_1 = os.environ.get("BOT_TOKEN_1", "")
 BOT_TOKEN_2 = os.environ.get("BOT_TOKEN_2", "")                             
-API_ID = os.environ.get("API_ID", "")
+API_ID = int(os.environ.get("API_ID", ""))
 API_HASH = os.environ.get("API_HASH", "")
 
 client1 = Client(
