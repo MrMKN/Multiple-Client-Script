@@ -23,8 +23,7 @@ async def second_start(client, message):
 
 
        
-app = Bot()
-app.run()       
+Bot.start()      
 #App1.start()
 #App2.start()
 
