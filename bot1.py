@@ -1,4 +1,4 @@
-from client import App
+from client import app
 from pyrogram import filters 
 
 @App.on_message(filters.text)
