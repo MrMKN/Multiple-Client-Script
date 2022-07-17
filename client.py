@@ -26,4 +26,4 @@ async def second_start(client, message):
 App1.start()
 App2.start()
 
-
+Client.idle()
