@@ -1,3 +1,3 @@
 tgcrypto        
-git+https://github.com/MrMKN/PyroScript@main        
+git+https://github.com/MrMKN/pyro-tester@main        
            
