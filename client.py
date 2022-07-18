@@ -1,5 +1,5 @@
 from pyrogram import Client, idle, filters
-from pyrogram.text import START
+from new.Script import START
 import os
 
 BOT_TOKEN_1 = os.environ.get("BOT_TOKEN_1", "")
