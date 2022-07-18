@@ -1,5 +1,5 @@
-# MULTI_Client
-This repo made on @MrMKN  
+# Multiple-Client-Script
+
 
 ### Used Method 👇
 ``` python
