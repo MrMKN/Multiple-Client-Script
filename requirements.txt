@@ -1,4 +1,4 @@
 Pyrogram
 tgcrypto        
-git+https://github.com/MrMKN/pyro-tester@main        
+git+https://github.com/MrMKN/PyroScript@main        
            
