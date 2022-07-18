@@ -1,4 +1,4 @@
-from pyrogram import Client, filters 
+from pyrogram import Client, idle, filters 
 import os
 
 BOT_TOKEN_1 = os.environ.get("BOT_TOKEN_1", "")
@@ -22,8 +22,13 @@ async def second_start(client, message):
         text="Hello Bro 😉 i am bot2")
                                
 
-app.run()                 
-bot.run()
+app.start     
+bot.start
+
+idle()
+
+app.stop
+bot.stop
 
        
 
