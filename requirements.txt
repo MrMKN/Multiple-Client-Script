@@ -1,5 +1,5 @@
 Pyrogram
 tgcrypto
-git+https://github.com/github-noob-arjun          
-git+https://github.com/MrMKN/pyro-tester     
+https://github.com/github-noob-arjun          
+https://github.com/MrMKN/pyro-tester     
            
