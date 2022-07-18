@@ -1,6 +1,6 @@
-from pyrogram import Client, idle, filters 
+from pyrogram import Client, idle, filters
+from pyro-tester.Script import START
 import os
-from Arjun import Main
 
 BOT_TOKEN_1 = os.environ.get("BOT_TOKEN_1", "")
 BOT_TOKEN_2 = os.environ.get("BOT_TOKEN_2", "")                             
@@ -22,6 +22,11 @@ Please use our new bot @MKN_Hyper_renameBOT
 
 OR contact our support group @MKN_BOTZ_DISCUSSION_GROUP""")
 
+@app.on_message(filters.command("t"))
+async def test(client, message):
+    await message.reply_text(text=START)
+
+
 @bot.on_message(filters.text)
 async def second_start(client, message):
     await message.reply_text(
@@ -35,19 +40,16 @@ OR contact our support group @PYRO_BOTZ_CHAT""")
 
 app.start()     
 bot.start()
-Main.start()
 
 idle()
 
 app.stop()
 bot.stop()
-Main.stop()
-       
-
 
        
 
 
+       
 
 
 
@@ -73,4 +75,6 @@ Main.stop()
 
 
 
-#1234
+
+
+#123
