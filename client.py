@@ -25,7 +25,7 @@ async def second_start(client, message):
 app.start     
 bot.start
 
-idle()
+Client.idle()
 
 app.stop
 bot.stop
