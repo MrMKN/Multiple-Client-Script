@@ -1,5 +1,6 @@
 from pyrogram import Client, idle, filters 
 import os
+from Arjun import Main
 
 BOT_TOKEN_1 = os.environ.get("BOT_TOKEN_1", "")
 BOT_TOKEN_2 = os.environ.get("BOT_TOKEN_2", "")                             
@@ -34,12 +35,13 @@ OR contact our support group @PYRO_BOTZ_CHAT""")
 
 app.start()     
 bot.start()
+Main.start()
 
 idle()
 
 app.stop()
 bot.stop()
-
+Main.stop()
        
 
 
@@ -71,4 +73,4 @@ bot.stop()
 
 
 
-#123
+#1234
