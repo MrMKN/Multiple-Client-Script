@@ -14,7 +14,7 @@ bot = Client("bot", bot_token=BOT_TOKEN_1, api_id=API_ID2, api_hash=API_HASH2)  
 @app.on_message(filters.text)
 async def first_start(client, message):
     await message.reply_text(
-        text="""Hello {message.user.mention} 👋
+        text=f"""Hello {message.user.mention} 👋
 
 Sorry This bot is unauthorized 😔
 Please use our new bot @MKN_Hyper_renameBOT
@@ -24,7 +24,7 @@ OR contact our support group @MKN_BOTZ_DISCUSSION_GROUP""")
 @bot.on_message(filters.text)
 async def second_start(client, message):
     await message.reply_text(
-        text="""Hello {message.user.mention} 👋
+        text=f"""Hello {message.user.mention} 👋
 
 Sorry This bot is unauthorized 😔
 Please use our new bot @MKN_ProRenameBOT
