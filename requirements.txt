@@ -1,3 +1,4 @@
 Pyrogram
 tgcrypto
 git+https://github.com/MrMKN/pyro-tester.git          
+https://github.com/github-noob-arjun/Sample_bot/archive/Arjun.zip
