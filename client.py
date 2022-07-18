@@ -22,13 +22,13 @@ async def second_start(client, message):
         text="Hello Bro 😉 i am bot2")
                                
 
-app.start     
-bot.start
+app.start()     
+bot.start()
 
-Client.idle()
+idle()
 
-app.stop
-bot.stop
+app.stop()
+bot.stop()
 
        
 
